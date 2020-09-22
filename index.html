@@ -1,1 +1,53 @@
-Hello World
+<html>
+<head>
+    <title> Thumbs up man! </title>
+</head>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap');
+    #video
+    {
+        width : 420px;
+        height :315px;
+    }
+    #love
+    {
+        position: absolute;
+        margin: auto;
+        top: 80%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-family: 'Gloria Hallelujah', cursive;
+    }
+    .center {
+        position: absolute;
+        margin: auto;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    body
+    {
+        background: linear-gradient(90deg, #efd5ff 0%, #515ada 100%);
+    }
+    h1
+    {
+        text-align: center;
+    }
+    @media (max-width: 850px)
+    {
+        #love
+        {
+            top:90%
+        }
+    }
+
+</style>
+<body>
+<iframe class="center" id="video" src="https://www.youtube.com/embed/uad3MzWsDCY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+</iframe>
+<div id ="love">
+    <h1>Thumbs up man!</h1>
+    <p>I respect this guy's bravery and confidence to snide at the ruling party despite his incoherent speech.</p>
+</div>
+</body>
+</html>
